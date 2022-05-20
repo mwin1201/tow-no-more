@@ -6,7 +6,7 @@ const TowingSchema = new Schema (
             type: String,
             required: true
         },
-        building: [
+        buildings: [
             {
                 type: Schema.Types.ObjectId,
                 ref: "Building"
